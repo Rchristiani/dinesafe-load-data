@@ -11,7 +11,7 @@ import (
 	"os"
 
 	_ "github.com/lib/pq"
-	dinesafe "github.com/rchristiani/dinesafe/api"
+	dinesafe "github.com/rchristiani/dinesafe-api/api"
 )
 
 func downloadZipFile(filepath string, url string) (err error) {
